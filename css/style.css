@@ -1,0 +1,149 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+.container-wrapper{
+    width: 90%;
+}
+
+
+.main-container{
+    height: 100vh;
+    width: 100%;
+    /* background-color: lightslategray; */
+}
+
+.main-container header{
+    height: 15%;
+    width: 100%;
+    background-color: lightblue;
+    /* display: flex;
+    justify-content: center; */
+}
+/* .main-container header .container-wrapper{
+    height: 100%;
+    background-color: orchid;
+} */
+.main-container header .primary-nav{
+    height: 30%;
+    width: 100%;
+    background-color: rgb(50, 50, 49);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-container header .primary-nav .container-wrapper{
+    height: 100%;
+    /* background-color: lightcoral; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-container header .primary-nav .container-wrapper .info-container,
+.main-container header .primary-nav .container-wrapper .social-media-links-container{
+    display: flex;
+    gap:20px
+}
+.main-container header .primary-nav .container-wrapper .info-container a,
+.main-container header .primary-nav .container-wrapper .social-media-links-container a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+
+.main-container header  nav{
+    height: 70%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-container header nav .container-wrapper{
+    height: 100%;
+    /* background-color: lavender; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-container header nav .container-wrapper h1{
+    font-size: 40px;
+    color: white;
+}
+.main-container header nav .container-wrapper ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    gap:20px;
+}
+.main-container header nav .container-wrapper ul li a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.main-container header nav .container-wrapper .cart-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+}
+.main-container header nav .container-wrapper .cart-container a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.main-container .banner-container{
+    height: 85%;
+    width: 100%;
+    background-color: rgb(117, 117, 228,0.3);
+    display: flex;
+    justify-content: center;
+    /* background-image: url('../images/parlour-banner.png'); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-blend-mode: overlay;
+}
+.main-container .banner-container  .container-wrapper {
+    height: 100%;
+    /* background-color: olivedrab; */
+}
+
+.main-container .banner-container  .container-wrapper .banner-content-container{
+    height: 100%;
+    width: 50%;
+    /* background-color: rgb(186, 229, 101); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:40px;
+}
+.main-container .banner-container  .container-wrapper .banner-content-container h1{
+    font-size: 60px;
+    text-transform: uppercase;
+
+} 
+.main-container .banner-container  .container-wrapper .banner-content-container p{
+    font-size: 20px;
+    text-transform: capitalize;
+    line-height: 1.5;
+} 
+.main-container .banner-container  .container-wrapper .banner-content-container .button-container button{
+    border: none;
+    text-transform: capitalize;
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: rgb(117, 117, 228);
+    color: white;
+}
+
